@@ -1,0 +1,12 @@
+======================= O que são algoritmos
+-> Os algoritmos não passam de uma sequência de passos dados para a resolução de um problema.
+
+Um exemplo clássico de algoritmo:
+    Quando queremos cozinhar algum tipo de alimento, normalmente seguimos uma receita. A própria receita é um algoritmo por definição: Uma sequência de passos dados para a resolução
+    de algum problema.
+
+Um exemplo de algoritmo de computadores:
+    Um outro exemplo que podemos fornecer sob o contexto de computadores é: Imagine que estamos codificando um programa, que precisa procurar em uma base de dados o nome de uma pessoa.
+    Essa base de dados contém centenas de elementos, e precisamos verificar um por um. O código gerado para procurar o elemento na base de dados e verificar se os elementos são ou não
+    o que procuramos, será um algoritmo por definição: uma sequênica de passos dados para a resolução de um problema(que nesse caso é a procura de um elemento específico).
+

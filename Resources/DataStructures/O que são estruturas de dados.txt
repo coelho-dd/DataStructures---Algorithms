@@ -1,0 +1,16 @@
+======================= O que são estruturas de dados
+-> Estruturas de dados são formas de organizar dados dentro de uma aplicação, ou um programa de computador. Existem várias estruturas, onde cada uma tem sua própria própria lógica
+de como lidar com tais dados.
+
+-> De forma um pouco mais técnica, podemos definir estruturas de dados como: Uma localização nomeada que utilizamos para armazenar e organizar dados.
+
+Mas "localizada" aonde?
+    As estruturas de dados são elementos lógicos que estão presentes dentro do computador. Por isso, elas existem em memória, em programas, em códigos-fonte, etc...
+
+Exemplo de estrutura de dado: Arrays
+
+Arrays
+    Um array é uma coleção de elementos, dispostos de forma contígua em certas localizações da memória do computador.
+
+    * Note como acabamos de demonstrar que uma estrutura de dados existe em partes dentro do computador, que no caso do Array(e muitas outras estruturas), fica na memória.
+
