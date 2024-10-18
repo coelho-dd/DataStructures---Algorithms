@@ -12,5 +12,18 @@ Exemplo de estrutura de dado: Arrays
 Arrays
     Um array é uma coleção de elementos, dispostos de forma contígua em certas localizações da memória do computador.
 
-    * Note como acabamos de demonstrar que uma estrutura de dados existe em partes dentro do computador, que no caso do Array(e muitas outras estruturas), fica na memória.
+    * Note como acabamos de demonstrar que uma estrutura de dados existe em partes dentro do computador, que no caso do Array(e a maioria das outras estruturas), fica na memória.
 
+
+====================== Resumo das operações de estruturas
+Quando lidamos com estruturas de dados, existem operações que são comuns a todas elas, independente de sua lógica adjacente.
+
+As operações a seguir são extremamente comuns quando lidamos com estruturas de dados:
+    * remoção de um ou mais elementos;
+    * adição de um ou mais elementos;
+    * procura de um ou mais elementos dentro da estrutura;
+
+Por isso, é muito comum comparar a eficiência de alguma estrutura a partir da análise da performance dessas operações citadas acima.
+
+Detalhe importante: Essas operações são realizadas a partir de algoritmos. Portanto, fica claro que os dois conceitos andam de mãos dadas a todo instante:
+    Utilizamos estruturas para armazenar dados e algoritmos para manipula-los de alguma forma!

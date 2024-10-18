@@ -1,0 +1,45 @@
+======================= O que são pilhas(stacks)
+-> As pilhas são estruturas de dados que seguem uma lógica específica: Último a entrar, primeiro a sair. Mas o que isso significa na prática?
+
+Imagine uma pilha de pratos. Nessa pilha, não podemos retirar o primeiro prato colocado, já que iria resultar na quebra da pilha, e por consequência dos pratos. Para chegar no primeiro
+prato da pilha, devemos remover todos os outros acima dele, se não quisermos quebrar tudo. Por isso, a nossa pilha de pratos segue também a lógica "Último a entrar, primeiro a sair."
+Note que temos uma estrutura com a mesma lógica: O último elemento deve ser sempre o primeiro a ser retirado, e qualquer outro deve seguir a partir disso.
+
+Uma estrutura de dados em lógica de pilha é uma estrutura em que eu não posso fazer qualquer coisa com um elemento que não seja o último da estrutura naquele momento. Por exemplo, em uma
+base de dados disposta em lógica de pilha, eu não posso acessar o elemento do meio, já que eu precisaria remover todos os elementos "acima" até o elemento do meio ser o último da pilha.
+
+Essa lógica tem um nome técnico, chamado de "Last In First Out", também conhecido como LIFO. Portanto, uma pilha(stack) é uma estrutura LIFO.
+
+Podemos aplicar essa mesma lógica LIFO em outras estruturas também, se assim for necessário.
+
+Representação gráfica de uma pilha:
+
+[9] -> deverá ser o primeiro elemento a ser manipulado
+[8]
+[7]
+[6]
+[5]
+[4]
+[3]
+[2]
+[1]
+[0] -> deverá ser o último elemento a ser manipulado
+
+
+======================= Operações com pilhas
+Como vimos no arquivo "o que são estruturas de dados", existem operações que são comuns a todas as estruturas de dados existentes.
+
+Duas delas são a inserção e remoção de dados da estrutura.
+
+-> Para adicionar dados à pilha, normalmente utilizamos métodos push()
+-> Para remover dados da pilha, normalmente utilizamos métodos pop()
+
+Para mais informações, verifique o método "pilha" do arquivo "Main.java".
+
+
+======================= Usos comuns de stacks
+1- funcionalidades de undo/redo em alguns editores de texto (Ctrl + z | Ctrl + y)
+2- se movendo para frente ou para trás no histórico do navegador
+3- algoritmos específicos
+4- manter o registro de chamadas de funções em um código-fonte (a famosa call stack)
+...
