@@ -26,6 +26,9 @@ Representação gráfica de uma pilha:
     [0] -> deverá ser o último elemento a ser manipulado
 
 
+-> As pilhas são estruturas indexadas, ou seja, utilizam arrays para implementar sua lógica.
+
+
 ======================= Operações com pilhas
 Como vimos no arquivo "o que são estruturas de dados", existem operações que são comuns a todas as estruturas de dados existentes.
 

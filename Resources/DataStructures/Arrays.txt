@@ -1,0 +1,44 @@
+======================= O que são Arrays
+-> Os arrays são estruturas de dados básicas, onde os dados são indexados e alocados de forma contígua na memória.
+
+-> Em outras palavras: Um array funciona à base de indexação, ou seja, cada elemento(numérico ou não) terá um índice adjacente. Esses índices são a forma de diferenciação de um elemento
+para o outro dentro de um array.
+
+Exemplo de array:
+
+    ["Davi", "Nayara", "Liara", "Daniel", "Cristiane", "Junior", "Lucas"]  -> um array de nomes
+       0         1        2        3           4          5         7      -> indicação dos índices referente aos elementos do array
+
+    Assim como temos arrays carregando elementos string, também podemos ter um array de tipos numéricos:
+
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  -> array de números
+     0  1  2  3  4  5  6  7  8  9    -> índices de cada elemento
+
+    Note que os índices dos arrays sempre começam do zero, e não de um! Isso é importante ao lidar com arrays, já que o primeiro elemento será o índice 0, o segundo será o de índice 1, e
+    por aí vai.
+
+    De novo: Não há como diferenciar um elemento de outro que não seja através do índice. Eis a importância do conceito quando estamos lidando com arrays.
+
+-> Um outro ponto importante é que arrays são dispostos de forma contígua na memória. Isso significa que em um array de nomes, cada elemento estará disposto um do lado do outro na memória.
+
+Utilizando um array do tipo string como exemplo:
+
+    ["davi", "nayara", "liara", "cristiane", "daniel", "junior", "lucas"]   -> array string qualquer
+      0001,    0002,    0003,      0004,       0005,     0006,     0007     -> endereços dispostos na memória de cada elemento
+
+    Note como os endereços estão um do lado do outro, o que significa que na memória cada elemento está disposto um ao lado do outro.
+
+    Esse é um conceito importante porque existem estruturas de dados que não possuem essas características, alterando completamente a lógica de como lidar com cada elemento.
+
+
+======================= Operações com arrays
+-> As operações com arrays são as operações clássicas:
+
+    * inserção de dados;
+    * remoção de dados;
+    * procura de um dado específico;
+
+
+======================= Usos comuns de arrays
+-> Os arrays provavelmente são as estruturas de dados mais utilizadas porque diversos outras estruturas os utilizam como base. As pilhas e as filas, por exemplo utilizam arrays para
+implementar sua lógica.

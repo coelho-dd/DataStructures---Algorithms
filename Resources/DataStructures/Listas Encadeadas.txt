@@ -1,0 +1,30 @@
+======================= O que são Listas Encadeadas
+-> As listas encadeadas, ao contrário de arrays, pilhas e filas que são indexadas, não possuem nenhum tipo de índice para diferenciar seus elementos. A forma como a diferenciação é feita
+é através de nós, onde cada elemento representa um nó e aponta para o próximo.
+
+-> Em outras palavras: Uma lista encadeada é uma lista de elementos, onde cada elemento aponta para o próximo e não existem índices. Além disso, como não são arrays tradicionais, os
+elementos não estão dispostos de forma contígua na memória, ou seja, eles não estão um do lado do outro na memória do computador. Na verdade, os nós de uma lista encadeada estão espalhados
+pela memória.
+
+* Não há a necessidade dos elementos existirem de forma contígua na memória do computador porque cada elemento aponta para o endereço do próximo. Então é possível obter o endereço
+independente do local onde o elemento se encontra. *
+
+Exemplo de lista encadeada:
+
+    [ ["davi"] -> ["nayara"] -> ["liara"] -> ["daniel"] -> ["cristiane"] ]   // lista encadeada onde '->' significa "aponta para"
+       cabeça        nó 2          nó 3         nó 4           cauda         // indicação dos nós da lista encadeada
+
+    Note que dessa vez não estamos trabalhando com índices, mas sim com nós, onde cada nó aponta para o próximo.
+
+
+-> Existem alguns tipos diferentes de listas encadeadas:
+
+    * lista simples: foi a lista demonstrada acima, onde cada elemento aponta apenas para o próximo elemento na cadeia;
+    * lista duplamente encadeada: nessa lista cada nó aponta tanto para o próximo nó quanto para o seu nó anterior. Isso permite explorar a estrutura na direção contrária.
+    * lista circular: na lista circular o último elemento aponta para o primeiro elemento, formando uma espécie de circulo.
+
+
+Para mais informações sobre LinkedLists veja o método "listaEncadeada" em Main.java.
+
+======================= Operações com LinkedList
+-> Assim como todas as outras estruturas até agora, temos as operações de inserção e remoção de dados, assim como procura de um elemento específico.

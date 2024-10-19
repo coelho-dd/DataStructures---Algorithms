@@ -1,6 +1,6 @@
 ======================= O que são Filas(Queues)
 -> As filas também são uma estrutura de dados que seguem uma lógica, assim como pilhas. A diferença é que as filas seguem a lógica "First In First Out", ou seja:
-"Primeiro a entrar, primeiro a sair".
+"Primeiro a entrar, primeiro a sair". As filas são estruturas indexadas, ou seja, utilizam arrays para implementar sua lógica.
 
 Como fica claro apenas pelo nome da lógica, existe uma simulação do conceito de pilha do mundo real. Por exemplo, digamos que há uma fila de 4 pessoas no banco para o atendimento.
 A primeira pessoa que irá ser atendida é a primeira pessoa a chegar. A segunda pessoa a ser atendida é a segunda pessoa a chegar, etc. Nota-se, então que, assim como pilhas simulam o

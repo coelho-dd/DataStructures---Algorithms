@@ -1,11 +1,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-import java.util.Stack; // java já possui uma classe pronta da linguagem que representa uma stack
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        fila();
+        listaEncadeada();
     }
 
     public static void pilha() {
@@ -38,5 +38,18 @@ public class Main {
         System.out.println(fila.remove()); // -> remove o primeiro elemento da minha Queue
         System.out.println(fila); // demonstra que o primeiro elemento foi removido
         // peek() retorna o primeiro elemento da fila
+    }
+
+    public static void listaEncadeada() {
+        LinkedList<Integer> listaEncadeada = new LinkedList<>(); // instanciando um elemnto do tipo LinkedList
+
+        // populando a lista encadeada
+        for(int i=10; i<21; i++) {
+            listaEncadeada.add(i);
+        }
+        System.out.println(listaEncadeada);
+        listaEncadeada.remove(5); // removendo o elemento de índice 5
+        // apesar de listas encadeadas não usarem índices, a classe LinkedList implementa métodos que utilizam índices para realizar algumas operações
+        System.out.println(listaEncadeada);
     }
 }
