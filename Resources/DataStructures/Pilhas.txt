@@ -14,16 +14,16 @@ Podemos aplicar essa mesma lógica LIFO em outras estruturas também, se assim f
 
 Representação gráfica de uma pilha:
 
-[9] -> deverá ser o primeiro elemento a ser manipulado
-[8]
-[7]
-[6]
-[5]
-[4]
-[3]
-[2]
-[1]
-[0] -> deverá ser o último elemento a ser manipulado
+    [9] -> deverá ser o primeiro elemento a ser manipulado
+    [8]
+    [7]
+    [6]
+    [5]
+    [4]
+    [3]
+    [2]
+    [1]
+    [0] -> deverá ser o último elemento a ser manipulado
 
 
 ======================= Operações com pilhas

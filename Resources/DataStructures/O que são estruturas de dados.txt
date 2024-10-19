@@ -27,3 +27,7 @@ Por isso, é muito comum comparar a eficiência de alguma estrutura a partir da 
 
 Detalhe importante: Essas operações são realizadas a partir de algoritmos. Portanto, fica claro que os dois conceitos andam de mãos dadas a todo instante:
     Utilizamos estruturas para armazenar dados e algoritmos para manipula-los de alguma forma!
+
+
+
+-> As identificações sobre eficiência de tempo de cada estrutura de dados estarão nos arquivos referente aos algoritmos, já que é nos algoritmos que o tempo de execução é levado em conta.

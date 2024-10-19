@@ -1,8 +1,11 @@
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
 import java.util.Stack; // java já possui uma classe pronta da linguagem que representa uma stack
 
 public class Main {
     public static void main(String[] args) {
-        pilha();
+        fila();
     }
 
     public static void pilha() {
@@ -19,5 +22,21 @@ public class Main {
         System.out.println(pilha.search(5)); // -> 5 (índice do elemento encontrado)
         System.out.println(pilha.pop()); // removendo o último elemento(9) [pop() retorna o objeto removido]
         System.out.println(pilha); // mostrando que a pilha agora vai de 0 a 8
+    }
+
+    public static void fila() {
+        Queue<String> fila = new LinkedList<String>(); // criando um objeto de LinkedList, já que Queue é uma interface(mas dá no mesmo LinkedList implementa Queue)
+        String input;
+        Scanner sc = new Scanner(System.in);
+
+        // adicionando nomes à Queue dinamicamente através de input
+        for(int i=0; i<5; i++) {
+            input = sc.nextLine();
+            fila.add(input);    // -> add() permite adicionar elementos à Queue, assim como offer() [elementos adicionados ao final da fila]
+        }
+        System.out.println(fila); // -> uma fila com 5 nomes foi criada
+        System.out.println(fila.remove()); // -> remove o primeiro elemento da minha Queue
+        System.out.println(fila); // demonstra que o primeiro elemento foi removido
+        // peek() retorna o primeiro elemento da fila
     }
 }

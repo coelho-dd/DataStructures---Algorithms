@@ -1,0 +1,43 @@
+======================= O que são Filas(Queues)
+-> As filas também são uma estrutura de dados que seguem uma lógica, assim como pilhas. A diferença é que as filas seguem a lógica "First In First Out", ou seja:
+"Primeiro a entrar, primeiro a sair".
+
+Como fica claro apenas pelo nome da lógica, existe uma simulação do conceito de pilha do mundo real. Por exemplo, digamos que há uma fila de 4 pessoas no banco para o atendimento.
+A primeira pessoa que irá ser atendida é a primeira pessoa a chegar. A segunda pessoa a ser atendida é a segunda pessoa a chegar, etc. Nota-se, então que, assim como pilhas simulam o
+comportamento de pilhas do mundo real, as filas também fazem a mesma coisa.
+
+Para dar um exemplo na área de computação, imagine que precisamos fazer com que os caracteres apertados no teclado apareçam na mesma ordem no monitor do computador. Ou seja, o primeiro
+botão apertado deve ser o primeiro caracter a aparecer, o segundo será o segundo, etc. Percebemos então que temos uma estrutura de fila, já que o botão apertado tem o seu caracter
+correspondente alocado em uma fila, para então o computador identificar qual é o próximo a ser "colocado na tela".
+
+Assim como podemos aplicar a lógica LIFO em outras estruturas, também podemos aplicar a lógica FIFO.
+
+Representação gráfica de uma fila:
+
+        [9] -> deverá ser o último elemento a ser manipulado
+        [8]
+        [7]
+        [6]
+        [5]
+        [4]
+        [3]
+        [2]
+        [1]
+        [0] -> deverá ser o primeiro elemento a ser manipulado
+
+
+======================= Operações com filas(queues)
+Assim como temos operações essenciais com pilhas, também temos com filas. A única alteração ocorre quanto aos nomes das operações:
+
+* Adicionar um elemento na fila -> enqueue(add).
+* Remover um elemento da fila -> dequeue(remove).
+
+Além dessas operações, também temos as operações de procura de um elemento, entre outras.
+
+-> Para mais informações sobre Queues, vá até Main.java no método "fila".
+
+
+======================= Usos comuns de filas
+1- Buffer do teclado (Exemplo dado no início dessa anotação)
+2- Filas de impressões na impressora (o primeiro documento passado será o primeiro impresso...)
+3- Algoritmos específicos
